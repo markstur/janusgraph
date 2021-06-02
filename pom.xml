@@ -1100,7 +1100,7 @@
                         <executions>
                             <execution>
                                 <id>attach-javadocs</id>
-                                <phase>package</phase>
+                                <phase>package-SKIP</phase>
                                 <goals>
                                     <goal>jar</goal>
                                 </goals>
